@@ -1,0 +1,3 @@
+./data.f90:    isotope_abundance(96)=0.15d0
+./processes.f90:  m_zxy=int(num_low_E_zxy*0.15)
+./processes.f90:  m_zxy=int(num_low_E_zxy*0.15)

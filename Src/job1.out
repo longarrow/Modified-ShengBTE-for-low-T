@@ -1,0 +1,158 @@
+
+Running on host cas637.pi.sjtu.edu.cn
+Time is Fri Sep 27 21:02:05 CST 2024
+Directory is /lustre/home/acct-umjbh/umjbh-c/zxy/opt/shengbte/Sheng_rand_cutE_mpiiso_0801/Src
+SLURM_JOBID=37162795
+SLURM_JOB_NODELIST=cas637
+SLURM_NNODES=1
+SLURMTMPDIR=
+working directory : /lustre/home/acct-umjbh/umjbh-c/zxy/opt/shengbte/Sheng_rand_cutE_mpiiso_0801/Src
+
+----------------------- INTIALIZATIONS -----------------------------
+
+
+Executable : 
+Working directory is /lustre/home/acct-umjbh/umjbh-c/zxy/opt/shengbte/Sheng_rand_cutE_mpiiso_0801/Src
+Running on host cas637.pi.sjtu.edu.cn
+Directory is /lustre/home/acct-umjbh/umjbh-c/zxy/opt/shengbte/Sheng_rand_cutE_mpiiso_0801/Src
+This jobs runs on 1 nodes
+This job has allocated 1 core(s)
+
+core file size          (blocks, -c) unlimited
+data seg size           (kbytes, -d) unlimited
+scheduling priority             (-e) 0
+file size               (blocks, -f) unlimited
+pending signals                 (-i) 767205
+max locked memory       (kbytes, -l) unlimited
+max memory size         (kbytes, -m) 4194304
+open files                      (-n) 131072
+pipe size            (512 bytes, -p) 8
+POSIX message queues     (bytes, -q) 819200
+real-time priority              (-r) 0
+stack size              (kbytes, -s) unlimited
+cpu time               (seconds, -t) unlimited
+max user processes              (-u) 767205
+virtual memory          (kbytes, -v) unlimited
+file locks                      (-x) unlimited
+
+total 1333
+drwxrwxr-x 3 umjbh-c umjbh-c   4096 Sep 27 20:56 .
+drwxrwxr-x 6 umjbh-c umjbh-c   4096 Sep 27 20:57 ..
+-rw-rw-r-- 1 umjbh-c umjbh-c   1081 Sep 27 20:55 Makefile
+-rw-rw-r-- 1 umjbh-c umjbh-c  21646 Sep 27 20:54 ShengBTE.f90
+-rw-rw-r-- 1 umjbh-c umjbh-c      0 Sep 27 20:56 ShengBTE.mod
+-rw-rw-r-- 1 umjbh-c umjbh-c 167448 Sep 27 20:56 ShengBTE.o
+-rw-rw-r-- 1 umjbh-c umjbh-c    439 Sep 27 21:01 arch.make
+drwxrwxr-x 2 umjbh-c umjbh-c   4096 Sep 27 20:54 change
+-rw-rw-r-- 1 umjbh-c umjbh-c   4423 Sep 27 20:54 conductivity.f90
+-rw-rw-r-- 1 umjbh-c umjbh-c   6644 Sep 27 20:56 conductivity.mod
+-rw-rw-r-- 1 umjbh-c umjbh-c  27800 Sep 27 20:56 conductivity.o
+-rw-rw-r-- 1 umjbh-c umjbh-c  12562 Sep 27 20:54 config.f90
+-rw-rw-r-- 1 umjbh-c umjbh-c  19952 Sep 27 20:56 config.mod
+-rw-rw-r-- 1 umjbh-c umjbh-c 107216 Sep 27 20:56 config.o
+-rw-rw-r-- 1 umjbh-c umjbh-c  31070 Sep 27 20:54 data.f90
+-rw-rw-r-- 1 umjbh-c umjbh-c  10926 Sep 27 20:54 data.mod
+-rw-rw-r-- 1 umjbh-c umjbh-c  40480 Sep 27 20:54 data.o
+-rw-rw-r-- 1 umjbh-c umjbh-c   5785 Sep 27 20:54 dos_routines.f90
+-rw-rw-r-- 1 umjbh-c umjbh-c   9385 Sep 27 20:56 dos_routines.mod
+-rw-rw-r-- 1 umjbh-c umjbh-c  35856 Sep 27 20:56 dos_routines.o
+-rw-rw-r-- 1 umjbh-c umjbh-c   3734 Sep 27 20:54 gruneisen.f90
+-rw-rw-r-- 1 umjbh-c umjbh-c   6706 Sep 27 20:56 gruneisen.mod
+-rw-rw-r-- 1 umjbh-c umjbh-c  19168 Sep 27 20:56 gruneisen.o
+-rw-rw-r-- 1 umjbh-c umjbh-c   5402 Sep 27 20:54 input.f90
+-rw-rw-r-- 1 umjbh-c umjbh-c   8945 Sep 27 20:56 input.mod
+-rw-rw-r-- 1 umjbh-c umjbh-c  45600 Sep 27 20:56 input.o
+-rw-rw-r-- 1 umjbh-c umjbh-c   2712 Sep 27 20:54 integrals.f90
+-rw-rw-r-- 1 umjbh-c umjbh-c   3329 Sep 27 20:54 integrals.mod
+-rw-rw-r-- 1 umjbh-c umjbh-c  11240 Sep 27 20:54 integrals.o
+-rw-rw-r-- 1 umjbh-c umjbh-c   8514 Sep 27 20:54 iterations.f90
+-rw-rw-r-- 1 umjbh-c umjbh-c  12864 Sep 27 20:56 iterations.mod
+-rw-rw-r-- 1 umjbh-c umjbh-c  22088 Sep 27 20:56 iterations.o
+-rw-rw-r-- 1 umjbh-c umjbh-c   2536 Sep 27 21:02 job1.err
+-rw-rw-r-- 1 umjbh-c umjbh-c   1441 Sep 27 21:02 job1.out
+-rw-rw-r-- 1 umjbh-c umjbh-c   2220 Sep 27 20:54 misc.f90
+-rw-rw-r-- 1 umjbh-c umjbh-c   2997 Sep 27 20:54 misc.mod
+-rw-rw-r-- 1 umjbh-c umjbh-c   8984 Sep 27 20:54 misc.o
+-rw-rw-r-- 1 umjbh-c umjbh-c   2022 Sep 27 20:55 my.slurm_2
+-rw-rw-r-- 1 umjbh-c umjbh-c  25688 Sep 27 20:54 phonon_routines.f90
+-rw-rw-r-- 1 umjbh-c umjbh-c  14860 Sep 27 20:56 phonon_routines.mod
+-rw-rw-r-- 1 umjbh-c umjbh-c 194208 Sep 27 20:56 phonon_routines.o
+-rw-rw-r-- 1 umjbh-c umjbh-c  37817 Sep 27 20:54 processes.f90
+-rw-rw-r-- 1 umjbh-c umjbh-c  48426 Sep 27 20:56 processes.mod
+-rw-rw-r-- 1 umjbh-c umjbh-c 183496 Sep 27 20:56 processes.o
+-rw-rw-r-- 1 umjbh-c umjbh-c   2882 Sep 27 20:54 scaling.f90
+-rw-rw-r-- 1 umjbh-c umjbh-c   3892 Sep 27 20:56 scaling.mod
+-rw-rw-r-- 1 umjbh-c umjbh-c  11216 Sep 27 20:56 scaling.o
+-rw-rw-r-- 1 umjbh-c umjbh-c   5186 Sep 27 20:54 symmetry.f90
+-rw-rw-r-- 1 umjbh-c umjbh-c   5310 Sep 27 20:54 symmetry.mod
+-rw-rw-r-- 1 umjbh-c umjbh-c  17584 Sep 27 20:54 symmetry.o
+-rw-rw-r-- 1 umjbh-c umjbh-c    351 Sep 27 20:54 tmpoutfind
+-rw-rw-r-- 1 umjbh-c umjbh-c    140 Sep 27 20:54 tmpp
+-rw-rw-r-- 1 umjbh-c umjbh-c   4392 Sep 27 20:54 wedgetc.f90
+-rw-rw-r-- 1 umjbh-c umjbh-c   6081 Sep 27 20:56 wedgetc.mod
+-rw-rw-r-- 1 umjbh-c umjbh-c  12648 Sep 27 20:56 wedgetc.o
+
+----------------------- RUN -----------------------------
+
+RUN STARTED ON 09/27/24 AT 21:02:06
+mpiifort -traceback -debug -O2  -static_intel -o ../ShengBTE conductivity.o config.o data.o input.o iterations.o misc.o gruneisen.o phonon_routines.o integrals.o processes.o scaling.o symmetry.o wedgetc.o dos_routines.o ShengBTE.o -L/lustre/home/acct-umjbh/umjbh-c/intel/opt/spglib/lib -lsymspg /lustre/opt/cascadelake/linux-rhel8-skylake_avx512/gcc-8.5.0/intel-oneapi-mkl-2021.4.0-utdojbdbnmohmwinjhhd6fkqrqv7ihek/mkl/2021.4.0/lib/intel64/libmkl_lapack95_lp64.a -Wl,--start-group /lustre/opt/cascadelake/linux-rhel8-skylake_avx512/gcc-8.5.0/intel-oneapi-mkl-2021.4.0-utdojbdbnmohmwinjhhd6fkqrqv7ihek/mkl/2021.4.0/lib/intel64/libmkl_intel_lp64.a /lustre/opt/cascadelake/linux-rhel8-skylake_avx512/gcc-8.5.0/intel-oneapi-mkl-2021.4.0-utdojbdbnmohmwinjhhd6fkqrqv7ihek/mkl/2021.4.0/lib/intel64/libmkl_sequential.a /lustre/opt/cascadelake/linux-rhel8-skylake_avx512/gcc-8.5.0/intel-oneapi-mkl-2021.4.0-utdojbdbnmohmwinjhhd6fkqrqv7ihek/mkl/2021.4.0/lib/intel64/libmkl_core.a -Wl,--end-group -lpthread -lm
+RUN ENDED ON 09/27/24 AT 21:02:07
+
+----------------------- DONE ----------------------------
+
+total 1333
+drwxrwxr-x 3 umjbh-c umjbh-c   4096 Sep 27 20:56 .
+drwxrwxr-x 6 umjbh-c umjbh-c   4096 Sep 27 21:02 ..
+-rw-rw-r-- 1 umjbh-c umjbh-c   1081 Sep 27 20:55 Makefile
+-rw-rw-r-- 1 umjbh-c umjbh-c  21646 Sep 27 20:54 ShengBTE.f90
+-rw-rw-r-- 1 umjbh-c umjbh-c      0 Sep 27 20:56 ShengBTE.mod
+-rw-rw-r-- 1 umjbh-c umjbh-c 167448 Sep 27 20:56 ShengBTE.o
+-rw-rw-r-- 1 umjbh-c umjbh-c    439 Sep 27 21:01 arch.make
+drwxrwxr-x 2 umjbh-c umjbh-c   4096 Sep 27 20:54 change
+-rw-rw-r-- 1 umjbh-c umjbh-c   4423 Sep 27 20:54 conductivity.f90
+-rw-rw-r-- 1 umjbh-c umjbh-c   6644 Sep 27 20:56 conductivity.mod
+-rw-rw-r-- 1 umjbh-c umjbh-c  27800 Sep 27 20:56 conductivity.o
+-rw-rw-r-- 1 umjbh-c umjbh-c  12562 Sep 27 20:54 config.f90
+-rw-rw-r-- 1 umjbh-c umjbh-c  19952 Sep 27 20:56 config.mod
+-rw-rw-r-- 1 umjbh-c umjbh-c 107216 Sep 27 20:56 config.o
+-rw-rw-r-- 1 umjbh-c umjbh-c  31070 Sep 27 20:54 data.f90
+-rw-rw-r-- 1 umjbh-c umjbh-c  10926 Sep 27 20:54 data.mod
+-rw-rw-r-- 1 umjbh-c umjbh-c  40480 Sep 27 20:54 data.o
+-rw-rw-r-- 1 umjbh-c umjbh-c   5785 Sep 27 20:54 dos_routines.f90
+-rw-rw-r-- 1 umjbh-c umjbh-c   9385 Sep 27 20:56 dos_routines.mod
+-rw-rw-r-- 1 umjbh-c umjbh-c  35856 Sep 27 20:56 dos_routines.o
+-rw-rw-r-- 1 umjbh-c umjbh-c   3734 Sep 27 20:54 gruneisen.f90
+-rw-rw-r-- 1 umjbh-c umjbh-c   6706 Sep 27 20:56 gruneisen.mod
+-rw-rw-r-- 1 umjbh-c umjbh-c  19168 Sep 27 20:56 gruneisen.o
+-rw-rw-r-- 1 umjbh-c umjbh-c   5402 Sep 27 20:54 input.f90
+-rw-rw-r-- 1 umjbh-c umjbh-c   8945 Sep 27 20:56 input.mod
+-rw-rw-r-- 1 umjbh-c umjbh-c  45600 Sep 27 20:56 input.o
+-rw-rw-r-- 1 umjbh-c umjbh-c   2712 Sep 27 20:54 integrals.f90
+-rw-rw-r-- 1 umjbh-c umjbh-c   3329 Sep 27 20:54 integrals.mod
+-rw-rw-r-- 1 umjbh-c umjbh-c  11240 Sep 27 20:54 integrals.o
+-rw-rw-r-- 1 umjbh-c umjbh-c   8514 Sep 27 20:54 iterations.f90
+-rw-rw-r-- 1 umjbh-c umjbh-c  12864 Sep 27 20:56 iterations.mod
+-rw-rw-r-- 1 umjbh-c umjbh-c  22088 Sep 27 20:56 iterations.o
+-rw-rw-r-- 1 umjbh-c umjbh-c   2658 Sep 27 21:02 job1.err
+-rw-rw-r-- 1 umjbh-c umjbh-c   5983 Sep 27 21:02 job1.out
+-rw-rw-r-- 1 umjbh-c umjbh-c   2220 Sep 27 20:54 misc.f90
+-rw-rw-r-- 1 umjbh-c umjbh-c   2997 Sep 27 20:54 misc.mod
+-rw-rw-r-- 1 umjbh-c umjbh-c   8984 Sep 27 20:54 misc.o
+-rw-rw-r-- 1 umjbh-c umjbh-c   2022 Sep 27 20:55 my.slurm_2
+-rw-rw-r-- 1 umjbh-c umjbh-c  25688 Sep 27 20:54 phonon_routines.f90
+-rw-rw-r-- 1 umjbh-c umjbh-c  14860 Sep 27 20:56 phonon_routines.mod
+-rw-rw-r-- 1 umjbh-c umjbh-c 194208 Sep 27 20:56 phonon_routines.o
+-rw-rw-r-- 1 umjbh-c umjbh-c  37817 Sep 27 20:54 processes.f90
+-rw-rw-r-- 1 umjbh-c umjbh-c  48426 Sep 27 20:56 processes.mod
+-rw-rw-r-- 1 umjbh-c umjbh-c 183496 Sep 27 20:56 processes.o
+-rw-rw-r-- 1 umjbh-c umjbh-c   2882 Sep 27 20:54 scaling.f90
+-rw-rw-r-- 1 umjbh-c umjbh-c   3892 Sep 27 20:56 scaling.mod
+-rw-rw-r-- 1 umjbh-c umjbh-c  11216 Sep 27 20:56 scaling.o
+-rw-rw-r-- 1 umjbh-c umjbh-c   5186 Sep 27 20:54 symmetry.f90
+-rw-rw-r-- 1 umjbh-c umjbh-c   5310 Sep 27 20:54 symmetry.mod
+-rw-rw-r-- 1 umjbh-c umjbh-c  17584 Sep 27 20:54 symmetry.o
+-rw-rw-r-- 1 umjbh-c umjbh-c    351 Sep 27 20:54 tmpoutfind
+-rw-rw-r-- 1 umjbh-c umjbh-c    140 Sep 27 20:54 tmpp
+-rw-rw-r-- 1 umjbh-c umjbh-c   4392 Sep 27 20:54 wedgetc.f90
+-rw-rw-r-- 1 umjbh-c umjbh-c   6081 Sep 27 20:56 wedgetc.mod
+-rw-rw-r-- 1 umjbh-c umjbh-c  12648 Sep 27 20:56 wedgetc.o

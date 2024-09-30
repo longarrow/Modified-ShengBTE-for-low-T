@@ -1,0 +1,5 @@
+./ShengBTE.f90:  ! direct/reciprocal lattice vectors, the symmetry operations, the
+./config.f90:    if(myid.eq.0)write(*,*) "Info: ",nsymm," symmetry operations"
+./config.f90:  ! rotational part of the symmetry operations. Everything is
+Binary file ./config.o matches
+./symmetry.f90:  ! Return the number of symmetry operations. Useful for allocating

@@ -1,3 +1,7 @@
+# Modified-ShengBTE-for-low-T
+This is the modified ShengBTE code to calculate low temperature thermal conductivity with acceleration algorithms. This is the primary version of the modified ShengBTE. For the fully developed version, please contact us.
+
+# The following is the original README file of ShengBTE.
 # `ShengBTE`: a solver for the Boltzmann transport equation for phonons
 
 ## Authors:
